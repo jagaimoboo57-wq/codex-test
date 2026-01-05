@@ -1,0 +1,57 @@
+{
+  "app": {"name": "Quest Board", "version": "1.0.0", "updatedAt": "2024-01-01T00:00:00.000Z"},
+  "ui": {"activeProjectId": "project-1", "activeInitiativeId": "initiative-1", "activeTab": "roadmap", "activePhaseId": "phase-1"},
+  "projects": [
+    {
+      "id": "project-1",
+      "name": "サンプルプロジェクト",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "initiativeOrder": ["initiative-1"],
+      "initiatives": [
+        {
+          "id": "initiative-1",
+          "name": "オンボーディング改善",
+          "summary": "初回利用の離脱率を低減する施策",
+          "status": "進行中",
+          "createdAt": "2024-01-01T00:00:00.000Z",
+          "updatedAt": "2024-01-01T00:00:00.000Z",
+          "roadmap": {
+            "phaseOrder": ["phase-1"],
+            "phases": [
+              {
+                "id": "phase-1",
+                "title": "MVPリリース",
+                "status": "進行中",
+                "createdAt": "2024-01-01T00:00:00.000Z",
+                "updatedAt": "2024-01-01T00:00:00.000Z",
+                "metrics": {
+                  "inProgressCount": 2,
+                  "doneCount": 1,
+                  "lastUpdatedAt": "2024-01-01T00:00:00.000Z",
+                  "allDoneBadge": false
+                },
+                "logs": {"logOrder": [], "items": []}
+              }
+            ]
+          },
+          "layers": {
+            "fixed": {
+              "basicRules": "主要ペルソナ: 新規登録ユーザー / トーンはフレンドリー",
+              "assumptions": "iOS/Androidで同じ導線を提供",
+              "locked": "価格は変えない",
+              "updatedAt": "2024-01-01T00:00:00.000Z"
+            },
+            "review": {
+              "goalDraft": "CVRを今月中に5%",
+              "changesHypothesis": "案内チュートリアルの改修",
+              "exclusions": "決済まわりは対象外",
+              "freeMemo": "アンケート設計も検討",
+              "updatedAt": "2024-01-01T00:00:00.000Z"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
